@@ -12,7 +12,9 @@ bettercap version of HSTS_HIJACK. There are added additional payloads to it, fee
 5. type ***hstshijack***
 6. Now go to your other virtual machine and type google.com, if downgrades to http from https, this means the module is working, if it doesnt work, please go through with the installation process again.
 
-# How to runn the spoof.cap:
+# NOTE: spoof.cap only to be downloaded on kali linux and other linux machines.
+
+# How to run the spoof.cap:
 
 # Note: save the spoof.cap file with the .cap extension only. 
 
