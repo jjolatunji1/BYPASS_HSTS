@@ -31,6 +31,13 @@ bettercap version of HSTS_HIJACK. There are added additional payloads to it, fee
  
      1. bettercap -iface <name of your wirreless interface> ex: wlan00 followed by <The location of the spoof.cap> ***ex:*** /root/spoof.cap
      Command example: bettercap -iface wlan0 /root/spoof.cap
+     
+  # Modification of spoof.cap file is important:
+      
+     1. Before running bettercap with the spoof.cap run bettercap with the basic command ex: bettercap -iface eth0/wlan0.
+     2. Note down the ip you want to listen on.
+     3. Right click the spoof.cap file and edit the set arp.spoof.targets {The IP of the windows "Target"}/3rd line to the IP you are targeting
+     4. Now run betterap with the caplet ex: bettercap -iface eth0/wlan0 -caplet spoof.cap
 
 
 ***Thank you***
