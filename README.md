@@ -22,15 +22,15 @@ bettercap version of HSTS_HIJACK. There are added additional payloads to it, fee
 
 # 1. On a virtualbox network:
     
-    1. bettercap -iface <name of your local interface> ***ex:*** eth0 followed by <The location of the spoof.cap> ***ex:*** /root/spoof.cap
-    Command example: ***bettercap -iface eth0 /root/spoof.cap***
+    1. bettercap -iface <name of your local interface> ex: eth0 followed by <The location of the spoof.cap> ***ex:*** /root/spoof.cap
+    Command example: bettercap -iface eth0 /root/spoof.cap
     
  # 2. On a wlan network:
  
    # Note: A wireless interface capable of monitor mode and packet injection required. 
  
-     1. bettercap -iface <name of your wirreless interface> ***ex:*** wlan00 followed by <The location of the spoof.cap> ***ex:*** /root/spoof.cap
-     Command example: ***bettercap -iface wlan0 /root/spoof.cap***
+     1. bettercap -iface <name of your wirreless interface> ex: wlan00 followed by <The location of the spoof.cap> ***ex:*** /root/spoof.cap
+     Command example: bettercap -iface wlan0 /root/spoof.cap
 
 
 ***Thank you***
