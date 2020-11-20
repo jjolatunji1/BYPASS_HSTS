@@ -1,6 +1,6 @@
 # BYPASS_HSTS   
 
-This works on Bettercap, mainly on kali linux. So, download these files and replace them in your kali bettercap's caplets directory, this is modified & less buggy code than the original
+This works on Bettercap, mainly on kali linux. So, download these files and replace them in your kali bettercap's caplets directory, this is modified & a less buggy code than the original
 bettercap version of HSTS_HIJACK. There are added additional payloads to it, feel free to explore.
 
 # Steps to replace HSTS_HIJACK on you kali ***BETTERCAP*** Directory:
