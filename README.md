@@ -5,7 +5,7 @@ bettercap version of HSTS_HIJACK. There are added additional payloads to it, fee
 
 # Steps to replace HSTS_HIJACK on you kali ***BETTERCAP*** Directory:
 
-1. Locate to your bettercap install location.
+1. Locate to your bettercap install location, then the ***Caplets*** Directory.
 2. Locate the hstsjijack and replace it with the new file.
 3. To test if it is working, go to your kali terminal and run bettercap on a virtual network.
 4. Run the spoof.cap
