@@ -3,6 +3,9 @@
 This works on Bettercap, mainly on kali linux. So, download these files and replace them in your kali bettercap's caplets directory, this is modified & a less buggy code than the original
 bettercap version of HSTS_HIJACK. There are added additional payloads to it, feel free to explore.
 
+# Before continuing with any of the of the steps given below, Download Bettercap from their page from the link below:
+https://github.com/bettercap/bettercap
+
 # Steps to replace HSTS_HIJACK on you kali ***BETTERCAP's*** Caplets Directory:
 
 1. Locate to your bettercap install location, then the ***Caplets*** Directory.
