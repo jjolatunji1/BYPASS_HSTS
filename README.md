@@ -9,11 +9,12 @@ https://github.com/bettercap/bettercap
 # Steps to replace HSTS_HIJACK on you kali ***BETTERCAP's*** Caplets Directory:
 
 1. Locate to your bettercap install location, then the ***Caplets*** Directory.
-2. Locate the hstsjijack and replace it with the new file.
-3. To test if it is working, go to your kali terminal and run bettercap on a virtual network.
-4. Run the spoof.cap
-5. type ***hstshijack***
-6. Now go to your other virtual machine and type google.com, if downgrades to http from https, this means the module is working, if it doesnt work, please go through with the installation process again.
+2. Usually usr/share/bettercap/caplets
+3. Locate the hstsjijack and replace it with the new file.
+4. To test if it is working, go to your kali terminal and run bettercap on a virtual network.
+5. Run the spoof.cap
+6. type ***hstshijack***
+7. Now go to your other virtual machine and type google.com, if downgrades to http from https, this means the module is working, if it doesnt work, please go through with the installation process again.
 
 # NOTE: spoof.cap only to be downloaded on kali linux and other linux machines.
 
